@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleMarginLeft">16dp</dimen>
+    <dimen name="layout_width">390dp</dimen>
+    <dimen name="layout_width1">15dp</dimen>
+    <dimen name="layout_width2">60dp</dimen>
+    <dimen name="layout_height1">48dp</dimen>
+    <dimen name="layout_width3">263dp</dimen>
+    <dimen name="layout_height2">60dp</dimen>
+    <dimen name="layout_width4">59dp</dimen>
+    <dimen name="layout_height3">56dp</dimen>
+    <dimen name="buttonW1">222dp</dimen>
+    <dimen name="buttonH1">138dp</dimen>
+    <dimen name="layout_width6">357dp</dimen>
+    <dimen name="layout_height4">96dp</dimen>
+    <dimen name="layout_width8">178dp</dimen>
+    <dimen name="layout_height8">210dp</dimen>
+    <dimen name="layout_width9">178dp</dimen>
+    <dimen name="layout_height7">210dp</dimen>
+    <dimen name="layout_width10">178dp</dimen>
+    <dimen name="layout_height9">201dp</dimen>
+    <dimen name="layout_width11">178dp</dimen>
+    <dimen name="layout_height10">210dp</dimen>
+    <dimen name="layout_width12">395dp</dimen>
+    <dimen name="layout_height11">100dp</dimen>
+
+</resources>

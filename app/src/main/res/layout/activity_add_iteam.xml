@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#59A952"
+    android:backgroundTint="#5E9545"
+    android:foregroundGravity="center"
+    android:visibility="visible"
+    tools:context=".Add_Iteam">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="416dp"
+        android:layout_height="740dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/vlad_stawizki_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="417dp"
+        android:layout_height="740dp"
+        android:background="#CE58C55D"
+        android:backgroundTint="#64AF51"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/orderFrtilize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/titleMarginLeft"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:background="#68C56C"
+            android:text="@string/selling"
+            android:textAlignment="center"
+            android:textColor="#0B0A0A"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/sellingIteamAdd"
+            android:textColor="#100C0C"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:hint="Carrot"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/sellingIteamAmount"
+            android:textColor="#121010"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#6D9E4C"
+            android:backgroundTint="#6D9E4C"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextNumber2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="50 KG"
+                android:inputType="textPersonName"
+
+                android:minHeight="48dp"
+                android:textAlignment="viewStart" />
+
+<!--            <Spinner-->
+<!--                android:id="@+id/spinner"-->
+<!--                android:layout_width="@dimen/layout_width2"-->
+<!--                android:layout_height="@dimen/layout_height1"-->
+<!--                android:layout_marginRight="30dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:entries="@array/weight" />-->
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/sellingIteamLocation"
+            android:textColor="#0E0D0D"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:hint="Location"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="289dp"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="@dimen/buttonW1"
+                android:layout_height="@dimen/buttonH1"
+                android:background="#639745"
+                android:backgroundTint="#639748"
+                android:contentDescription="@string/sellingIteamaddDB"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/submit" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="@dimen/layout_width4"
+                android:layout_height="@dimen/layout_height3"
+                android:layout_marginEnd="77dp"
+                android:layout_marginBottom="48dp"
+                android:background="#609646"
+                android:contentDescription="@string/addCropImg1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image"
+                app:layout_constraintBottom_toTopOf="@+id/imageButton"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="@dimen/layout_width3"
+                android:layout_height="@dimen/layout_height2"
+                android:layout_marginStart="33dp"
+                android:layout_marginBottom="44dp"
+                android:text="@string/addCropImg"
+                android:textColor="#100F0F"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/imageButton"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#57A851"
+    android:backgroundTint="#56A64E"
+    tools:context=".Seed_Order">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66B051"
+        android:backgroundTint="#56A850"
+        tools:context=".Fretilize_Order">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="421dp"
+            android:layout_height="735dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/vlad_stawizki_horizontal" />
+
+        <LinearLayout
+            android:layout_width="425dp"
+            android:layout_height="745dp"
+            android:background="#CE58C55D"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/orderFrtilize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="16dp"
+                android:background="#68C56C"
+                android:text="@string/order_seed"
+                android:textAlignment="center"
+                android:textColor="#0B0A0A"
+                android:textSize="60dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/WhatIsBeingCultivated"
+                android:textColor="#121010"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="Carrot"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/orderingSeeds"
+                android:textColor="#100C0C"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#65AF51"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextNumber2"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="50"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:textAlignment="center" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="60dp"
+                    android:layout_height="48dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:entries="@array/weight" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/enterLocation"
+                android:textColor="#0E0D0D"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="Location"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="255dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="252dp"
+                    android:layout_height="171dp"
+
+                    android:background="#56A74E"
+                    android:contentDescription="@string/OrderNowS"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.505"
+                    app:srcCompat="@drawable/order_now" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

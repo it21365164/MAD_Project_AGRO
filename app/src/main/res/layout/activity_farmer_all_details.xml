@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Farmer_All_Details">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="424dp"
+        android:layout_height="738dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/istockphoto_1308606393_170667a" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/layout_width12"
+        android:layout_height="@dimen/layout_height11"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="#0E0000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="111dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="296dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="262dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="168dp"
+        android:text="@string/farmerDetailsName"
+        android:textAlignment="center"
+        android:textColor="#130F0F"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="358dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="296dp"
+        android:text="@string/farmerDetailsEmail"
+        android:textColor="#232001"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="376dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:srcCompat="@drawable/telephone" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="376dp"
+        android:ems="10"
+        android:hint="@string/farmerDetailsTell"
+        android:inputType="text|phone"
+        android:text="@string/farmerDetailsTell"
+        android:textColor="#EADDDD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="464dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:srcCompat="@drawable/gps" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="284dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="464dp"
+        android:ems="10"
+        android:hint="@string/farmerDetailsLocation"
+        android:inputType="textPersonName"
+        android:text="@string/farmerDetailsLocation"
+        android:textColor="#EADDDD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FF0000"
+        android:text="@string/farmerDetailsDelete"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="22dp"
+        android:backgroundTint="#1C7020"
+        android:text="@string/farmerDetailsUpdate"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="382dp"
+        android:layout_height="52dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="106dp"
+        android:background="#4E4A17"
+        android:contentDescription="@string/rating"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="265dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="160dp"
+        android:text="@string/farmerReview"
+        android:textColor="#E3D4D4"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

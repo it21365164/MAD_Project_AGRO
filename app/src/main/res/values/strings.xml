@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">agro</string>
+    <string name="register1">Register</string>
+    <string name="login">Login</string>
+    <string name="register2">Register</string>
+    <string name="famerDetails">Please Enter Farmer Details</string>
+    <string name="viewDetails">View Details</string>
+    <string name="updateDetails">Update</string>
+    <string name="deleteDetails">Delete</string>
+    <string name="order_fretilizer">Order Fretilize</string>
+    <string name="order_seed">Order Seeds</string>
+    <string name="sellingIteamAdd">Add the Sell Items:</string>
+    <string name="sellingIteamName">Name of the crop:</string>
+    <string name="sellingIteamAmount">How many crops are there?</string>
+    <string name="sellingIteamEnterDate">Crops Adding Date</string>
+    <string name="sellingIteamLocation">Crops in Location?</string>
+    <string name="sellingIteamaddDB">Selling Iteam Add DB</string>
+    <string name="order_seeds">Order Seeds</string>
+    <string name="selling">Add Iteam</string>
+    <string name="farmerDetails">Farmer Details Form</string>
+    <string name="submitDetails">Submit</string>
+    <string name="orderingFertilize">How much fertilizer is needed per season?</string>
+    <string name="orderingSeeds">How many seeds are needed?</string>
+    <string name="farmer">FARMER</string>
+    <string name="OrderNow">Fertilize Order Now</string>
+    <string name="OrderNowS">Seed Order Now</string>
+    <string name="buyer">buyer</string>
+    <string name="fretilizer">fertilizer seller</string>
+    <string name="seedDistributor">Seed Distributor</string>
+    <string name="enterLocation">Enter your Current Location :</string>
+    <string name="enterFarmerDetails">Farmer Details</string>
+    <string name="CultivatedArea">Cultivated Location:</string>
+    <string name="CultivatedCrop">Cultivated Crop:</string>
+    <string name="CultivationArea">Cultivation Area:</string>
+    <string name="WhatIsBeingCultivated">What is being cultivated?</string>
+    <string name="loginpg">LOGIN</string>
+    <string name="enterUserName">User Name :</string>
+    <string name="enterPassword">Password :</string>
+    <string name="loginsubmit">LOGIN</string>
+    <string name="farmerProfile">Farmer Profile</string>
+    <string name="welcome">Hii......Welcome to your profile</string>
+    <string name="farmerDetailsName">Lakshan Sandeepa</string>
+    <string name="farmerDetailsEmail">lakshandissanayake155@gmail.com</string>
+    <string name="farmerDetailsTell">076-2177832</string>
+    <string name="farmerDetailsLocation">Malabe,Isurupura</string>
+    <string name="farmerDetailsUpdate">Update</string>
+    <string name="farmerDetailsDelete">Delete</string>
+    <string name="farmerDetailsCrop">Carrot</string>
+    <string name="farmerDetailsCrop2">Potatoes</string>
+    <string name="farmerDetailsArea">25 Acres</string>
+    <string name="farmerDetailsAmount">25Kg</string>
+    <string name="farmerReview">Ratings of Farmer</string>
+    <string name="rating">Ratings of Farmer</string>
+    <string name="viewYourDetails">Your Personal Details</string>
+    <string name="addCropImg">Please add the your Crop Image</string>
+    <string name="addCropImg1">adding</string>
+    <string name="UpdateYourCropeDetasils">Update Your Crop Details</string>
+    <string name="addingIteamHeader">Description of all your crops</string>
+    <string name="UpdateYourDetails">Update Your Details </string>
+    <string name="giveOrder">View your Orders</string>
+    <string name="giveOrdername">Viduth Ranaveera</string>
+    <string name="giveOrdercropeType">Potatoes</string>
+    <string name="giveOrdercropeLocation">Negombo,Halawatha</string>
+    <string name="giveOrdercropeAmount">50Kg</string>
+
+
+    <string-array name="weight">
+        <item>Select Weight</item>
+        <item>Kg</item>
+        <item>g</item>
+    </string-array>
+
+</resources>

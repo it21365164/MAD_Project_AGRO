@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".Update_Items_popUp">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="410dp"
+
+        android:layout_height="738dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/images__1_" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="386dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/UpdateYourCropeDetasils"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView20"
+        app:layout_constraintTop_toTopOf="@+id/imageView20" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="366dp"
+        android:layout_height="583dp"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+        app:layout_constraintStart_toStartOf="@+id/imageView20"
+        app:srcCompat="@drawable/recktangle" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="322dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="110dp"
+        android:ems="10"
+        android:hint="@string/farmerDetailsAmount"
+        android:inputType="textPersonName"
+        android:textColor="#090909"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintStart_toStartOf="@+id/imageView22" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="388dp"
+        android:text="@string/sellingIteamAmount"
+        android:textColor="#090909"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="216dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="77dp"
+
+        android:layout_marginTop="18dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22"
+        app:srcCompat="@drawable/carrots_181856_2" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="282dp"
+        android:text="@string/enterLocation"
+        android:textColor="#090909"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="322dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="216dp"
+        android:ems="10"
+        android:hint="@string/farmerDetailsLocation"
+        android:inputType="textPersonName"
+        android:textColor="#090909"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="167dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginBottom="347dp"
+        android:text="@string/farmerDetailsCrop"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintStart_toStartOf="@+id/imageView22" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="144dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="499dp"
+        android:backgroundTint="#1C7020"
+        android:text="@string/updateDetails"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22" />
+</androidx.constraintlayout.widget.ConstraintLayout>
